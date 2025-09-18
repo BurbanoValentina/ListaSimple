@@ -74,7 +74,6 @@ class TaskList:
         print("\n No se encontró ninguna tarea con ese título.\n")
 
 
-# Programa principal con menú (menú sigue en español)
 def menu():
     task_list = TaskList()
 
@@ -112,7 +111,6 @@ def menu():
             print("\n Opción no válida, intente de nuevo.\n")
 
 
-# Ejecutar menú
 menu()
 
 
